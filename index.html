@@ -3,42 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Simple Website</title>
+  <title>Happy Monthsary</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 50px;
+      margin: 0;
+      padding: 0;
       background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
     }
+
+    .container {
+      text-align: center;
+      padding: 20px;
+      max-width: 90%;
+    }
+
     h1 {
-      color: #312075
+      color: #312075;
+      margin-bottom: 20px;
     }
+
+    img {
+      width: 100px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
     p {
       color: #000000;
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 5px 0;
     }
   </style>
 </head>
 <body>
-  <h1>Happy Monthsary :D</h1>
-  <img src="lv.jpg" width="100">
-  <p1>I choose you and I'll choose you over and over.</p1>
-  <p2>Without a pause, without a doubt,</p2>
-  <p3>I'll keep choosing you.</p3>
-
+  <div class="container">
+    <h1>Happy Monthsary :D</h1>
+    <img src="lv.jpg" alt="Love image">
+    <p>I choose you and I'll choose you over and over.</p>
+    <p>Without a pause, without a doubt,</p>
+    <p>I'll keep choosing you.</p>
+  </div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
